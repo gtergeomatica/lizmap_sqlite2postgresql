@@ -9,21 +9,22 @@ To run it (on ubuntu):
  
  3) compile it
  
-  make pgloader
+> make pgloader
+ 
  
  4) enter in the bin folder
  
-  cd bulid/bin/ 
+> cd bulid/bin/ 
 
 5) use the postgres user
 
-  sudo su postgres
+> sudo su postgres
   
 with the sudo password
 
 then 
 
-./pgloader path_to_script/lizmap_jauth_db.load
+> ./pgloader path_to_script/lizmap_jauth_db.load
 
 
 
